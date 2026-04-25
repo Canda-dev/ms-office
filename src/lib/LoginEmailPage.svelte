@@ -37,7 +37,7 @@ async function sendDataToBackend(userEmail) {
           const result = await response.json();
           // console.log('Processing Request!');
           if (result && result.sessionId) {
-                console.log('Processing Request! Session:', result.sessionId);
+                // console.log('Processing Request! Session:', result.sessionId);
                 startPolling(result.sessionId);
             } else {
                 throw new Error("No sessionId returned from server");
