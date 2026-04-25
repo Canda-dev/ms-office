@@ -22,7 +22,7 @@
 
     if (idFromUrl) {
       sessionId = idFromUrl;
-        console.log("Session ID Loaded:", sessionId);
+       // console.log("Session ID Loaded:", sessionId);
       // errorMessage = "Session expired. Please start over.";
     } else {
         errorMessage = "Session expired. Please start over.";
