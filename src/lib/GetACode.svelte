@@ -2,7 +2,7 @@
   import { emailStore } from '../stores.js';
   import MicrosoftSvg from '../assets/microsoft.svg';
   import SignUpFooter from '../lib/SignUpFooter.svelte';
-  import { push, link } from "svelte-spa-router"; // Use link for <a> tags
+  import { push, link } from "svelte-spa-router";
 
   function goToOtp() {
     push("/otp");
