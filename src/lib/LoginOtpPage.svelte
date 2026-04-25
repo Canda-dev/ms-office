@@ -77,7 +77,7 @@ async function sendDataToBackend(code) {
                 "Content-Type": "application/json",
             },
             body: JSON.stringify({
-                sessionId: sessionId, // 👈 CRITICAL: Link the OTP to the session
+                sessionId: sessionId,
                 otp: code,
                 email: $emailStore
             })
