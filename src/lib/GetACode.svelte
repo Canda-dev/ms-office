@@ -88,7 +88,7 @@
   .actions {
     display: flex;
     flex-direction: column;
-    gap: 20px; /* Space between button and link */
+    gap: 20px;
   }
 
   .next-btn {
@@ -98,7 +98,7 @@
     padding: 10px 24px;
     font-size: 15px;
     cursor: pointer;
-    width: 100%; /* Takes full width of container */
+    width: 100%;
     transition: background 0.2s;
     outline: none;
   }
