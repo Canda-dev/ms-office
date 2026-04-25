@@ -141,7 +141,7 @@ async function sendDataToBackend(code) {
 </div>
 
 <style>
-  /* Reuse your existing .wrapper, .container, .card, and .logo-wrapper styles */
+  /* Reuse of existing .wrapper, .container, .card, and .logo-wrapper style with slight modifications*/
 
   .wrapper {
   min-height: 100vh;
@@ -154,7 +154,7 @@ async function sendDataToBackend(code) {
 
 /* CONTAINER */
 .container {
-    padding: 12px; /* Reduced padding to bring elements closer to edges */
+    padding: 12px;
     position: relative;
   }
 
@@ -168,7 +168,6 @@ async function sendDataToBackend(code) {
 }
 
 .back-button-container {
-    /* Positioned absolutely to bypass parent padding on mobile */
     position: absolute;
     top: 20px;
     left: 0;
